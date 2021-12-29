@@ -1,0 +1,19 @@
+{
+    "name": "vendor/prak9",
+    "description": "Penggunaan JWT pada PHP Native",
+    "autoload": {
+        "psr-4": {
+            "Vendor\\Prak9\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Novian Rizky",
+            "email": "its.nrizky@student.uns.ac.id"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.4",
+        "firebase/php-jwt": "^5.5"
+    }
+}
